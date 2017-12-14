@@ -7,4 +7,9 @@ class App < Sinatra::Base
 	get '/hello' do
 		erb :hello
 	end
+
+	get '/name' do
+		erb :hello
+	end
+
 	end
